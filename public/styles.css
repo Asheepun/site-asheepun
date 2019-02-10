@@ -1,0 +1,67 @@
+* {
+	margin:0px auto;
+	padding:0px;
+	text-align:center;
+	text-decoration: none;
+	font-family: game;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	overflow: hidden;
+}
+
+@font-face{
+    font-family: "game";
+    src: url("/game.ttf");
+}
+
+.black{
+	color: #171717;
+}
+
+.white{
+	color: white;
+}
+
+.black-bg{
+	background: #171717;
+}
+
+.white-bg{
+	background: white;
+}
+
+.page{
+	margin-top: 10px;
+	width: 600px;
+}
+
+.header{
+	font-size: 55px;
+	padding: 5px 20px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+.text{
+	font-size: 35px;
+	margin: 20px;
+	display: inline-block;
+}
+
+.text-small{
+	font-size: 25px;
+	margin: 15px;
+}
+
+.icon{
+	width: 300px;
+	margin: 10px auto;
+}
+
+.link:hover{
+	opacity: 0.5;
+}

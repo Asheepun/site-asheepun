@@ -1,0 +1,14 @@
+{
+  "name": "site-asheepun",
+  "version": "1.0.0",
+  "description": "My personal site",
+  "main": "app.js",
+  "scripts": {
+	  "start": "node app"
+  },
+  "author": "Gustav Almström (Asheepun)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
