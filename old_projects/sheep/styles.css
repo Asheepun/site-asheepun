@@ -1,0 +1,14 @@
+*{
+	margin:auto;
+	padding:0px;
+	text-align:center;
+}
+
+body{
+	background: black;
+}
+
+@font-face{
+    font-family: "game";
+    src: url("/game.ttf");
+}

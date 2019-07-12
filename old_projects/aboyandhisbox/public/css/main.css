@@ -1,0 +1,100 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family:Montserrat;
+}
+
+body {
+    background: url(/assets/background.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+#main {
+    width:790px;
+    height:591px;
+    margin:0px auto;
+    background:#6dc066;
+    text-align:center;
+}
+
+#mainCanvas {
+    margin:0px auto;
+    border:1px solid black;
+}
+
+#twitter:hover {
+    background: #a0db8e;;
+}
+
+#twitter > img {
+    width:40px;
+    border-radius:10px;
+    border:1px solid darkblue;
+}
+
+h1 {
+    font-size:50px;
+}
+
+h2 {
+    padding:5px;
+    margin:10px auto;
+    width:100px;
+    font-size:40px;
+    background:#a0db8e;
+    border:1px solid black;
+}
+
+h3 {
+    font-size:25px;
+}
+
+h2:hover {
+    background:#368059;
+}
+
+p {
+    font-size:30px;
+}
+
+nav {
+    border:1px solid #6dc066;
+    text-align:center;
+    background:#a0db8e;
+}
+
+nav ul li {
+    display:inline-block;
+    padding:10px;
+}
+
+nav ul li img {
+    width:50px;
+}
+
+nav ul li a {
+    margin:0px;
+    font-size:40px;
+    color:white;
+}
+
+nav ul li a:hover {
+    background:#6dc066;
+}
+
+div img {
+    width:600px;
+    border:1px solid #0d6032;
+}
+
+#credits {
+    background:#a0db8e;
+}
+
+#credits > p {
+    font-size:20px;
+    padding:10px;
+}
