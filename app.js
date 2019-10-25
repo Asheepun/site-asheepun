@@ -23,9 +23,16 @@ const requestHandler = (req, res) => {
 
 		let filePath;
 
-		if(req.url === "/") filePath = "./view/index.html";
-		else if(req.url === "/old_projects") filePath = "./view/old_projects.html";
-		else filePath = "./public" + req.url;
+		if(req.url === "/"){
+			filePath = "./view/index.html";
+		}else if(req.url === "/old_projects"){
+			filePath = "./view/old_projects.html";
+		}else if(req.url === "/non_game_projects"){
+			//console.log("CHECK");
+			filePath = "./view/non_game_projects.html";
+		}else{
+			filePath = "./public" + req.url;
+		}
 
 		const extName = String(path.extname(filePath)).toLowerCase();
 
